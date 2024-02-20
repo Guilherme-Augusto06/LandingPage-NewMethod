@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade Carlos</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+<nav class="menu menu-nav">
+    <ul class="lista">
+        <li class="link-list"><a href="../index.html"><span class="material-symbols-outlined">
+            computer
+            </span>Homepage</a></li>
+        <li class="link-list"><a href="../FAQ.html"><span class="material-symbols-outlined">
+            quiz
+            </span>Faq</a></li>
+        <li class="link-list"><a href="../contato.html"><span class="material-symbols-outlined">
+            phone_in_talk
+            </span>Contatos</a></li>
+        <li class="link-list carrinho"><a href="#" id="abrirModalCarrinho"><span class="material-symbols-outlined">
+            shopping_cart
+            </span><span id="carrinho-counter">0</span></a></li>
+    </ul>
+</nav>
+
+<div class="compras-zoom">
+    <div class="compra-zoom">
+        <div class="iphone-zoom">
+            <div class="product-image-zoom">
+                <img src="../img/alexa.jpg   " alt="">
+            </div>
+            <div class="purple-border"></div>
+        </div>
+        <div class="descricao-compra">
+            <h3 id="nome">Alexa</h3>
+            <p id="descricao">Smart speaker com Alexa | Display de LED ainda melhor | Cor Azul Claro</p>
+            <p>O Echo Dot com o melhor som já lançado: curta uma experiência sonora ainda melhor em comparação às versões anteriores do </p>
+            <p>Echo Dot com Alexa e ouça vocais mais nítidos, graves mais potentes e um som vibrante em qualquer ambiente.</p>
+            <p>Veja a hora e muito mais: display de LED aprimorado que além de exibir hora e alarmes, mostra a previsão do tempo, </p>
+            <p>títulos de músicas e muito mais. Suas músicas e conteúdos favoritos: reproduza músicas e podcasts do Amazon Music, </p>
+            <p>Apple Music, Spotify, entre outros, ou por Bluetooth em todos os ambientes da sua casa.</p>
+
+
+            <br> <!-- Adicionando a quebra de linha aqui -->
+            <p id="valor">R$ 599,00</p>
+            <div class="botao-comprar2">
+            <button id="comprar_iphone">Comprar</button>
+            </div>
+        </div>
+    </div>
+</div>
+    
+    <footer class="rodape">
+        <img src="../img/logo_transparent.png" alt="">
+        <p>&copy; 2024 TechTopia. Todos os direitos reservados.</p>
+    </footer>
+    <!-- Modal Carrinho -->
+    <div id="modalCarrinho" class="modal">
+        <div class="modal-content">
+            <span class="fecharModalCarrinho">&times;</span>
+            <h2>Carrinho de Compras</h2>
+            <div class="modal-body" id="listaProdutosCarrinho">
+                <!-- Aqui serão listados os itens do carrinho -->
+            </div>
+        </div>
+    </div>
+    
+      
+    
+
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script 
+    src="../main.js">    
+
+    </script>
+</body>
+</html>

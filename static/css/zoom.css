@@ -1,0 +1,102 @@
+.compras-zoom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.compra-zoom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative; /* Adicionado */
+}
+
+
+.product-image {
+    position: relative; /* Adicionado */
+}
+
+.product-image img {
+    width: 100%;
+    height: auto;
+}
+
+
+.descricao-compra {
+    flex: 1;
+    padding: 0 20px;
+}
+
+.botao-comprar {
+    margin-top: 20px;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+}
+
+
+
+footer {
+
+    bottom: 0;
+    width: 100%;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+.compra-zoom button {
+    background-color: purple;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.product-image-zoom {
+    text-align: center; /* Alinha a imagem ao centro */
+    margin-bottom: 20px; /* Adiciona margem inferior */
+}
+
+.product-image-zoom img {
+    max-width: 100%; /* Garante que a imagem não ultrapasse o tamanho do contêiner */
+    height: auto;
+    mix-blend-mode: multiply;
+}
+.iphone-zoom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative; /* Adicionado */
+}
+.iphone-zoom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative; /* Adicionado */
+}
+
+.product-image-zoom {
+    position: relative; /* Adicionado */
+}
+
+.product-image-zoom img {
+    width: 100%;
+    height: auto;
+    display: block; /* Impede que a imagem tenha espaços em branco acima e abaixo */
+    margin: 0 auto; /* Centraliza a imagem horizontalmente */
+    mix-blend-mode: multiply;
+}
+
+
+.descricao-compra {
+    flex: 1;
+    padding: 0 20px;
+}
+
+.botao-comprar {
+    margin-top: 20px;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+}
