@@ -127,6 +127,29 @@
     margin-top: 135px;
     mix-blend-mode: multiply;
 }
+
+.iphoneclass img{
+    max-width: 50%;
+    margin-top: 170px;
+    mix-blend-mode: multiply;
+}
+
+.rtx4090class img{
+    max-width: 50%;
+    margin-top: 170px;
+    mix-blend-mode: multiply;
+}
+
+.alexaclass img{
+    max-width: 50%;
+    margin-top: 170px;
+    mix-blend-mode: multiply;
+}
+.celularclass img{
+    max-width: 50%;
+    margin-top: 170px;
+    mix-blend-mode: multiply;
+}
 .next-page{
     margin-top: 50px;
     margin-bottom: 50px;
