@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade Carlos</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='./css/style.css')}}">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <button class="botao-voltar"id="botaoRetornar">Voltar</button>
+    <script>
+        document.getElementById("botaoRetornar").addEventListener("click", function() {
+            window.history.back();
+        });
+    </script>
+
+<div class="compras-zoom">
+    <div class="compra-zoom">
+        <div class="iphone-zoom">
+            <div class="product-image-zoom">
+                <img src="{{url_for('static', filename='./img/water-cooler-corsair-h150-rgb-intel-amd-360mm-3x-120mm-preto-cw-9060054-ww_1636559276_gg.jpg')}}" alt="">
+            </div>
+            <div class="purple-border"></div>
+        </div>
+        <div class="descricao-compra">
+            <h3 id="nome">Cooler</h3>
+            <p id="descricao">PWater Cooler Corsair H150 RGB</p>
+            <p>O cooler líquido multifuncional para CPU CORSAIR H150 RGB oferece um resfriamento poderoso e confiável.</p> 
+            <p>Resfriamento completo para CPU que ilumina seu PC com cores dramáticas graças a ventoinhas de </p>
+            <p>120mm CORSAIR SP RGB ELITE PWM, gerando um excelente fluxo de ar e cores RGB vibrantes.</p>
+            <p>Controle conveniente da iluminação usando placas-mãe compatíveis.</p>
+            <p>Equipado com uma placa fria de cobre termicamente otimizada e bomba de baixo ruído para um resfriamento silencioso.</p>
+            <br> <!-- Adicionando a quebra de linha aqui -->
+            <p id="valor">R$ 699,99</p>
+            <div class="botao-comprar2">
+            <button id="comprar_iphone">Comprar</button>
+            </div>
+        </div>
+    </div>
+</div>
+    
+{% include "footer.html" %}
+    <!-- Modal Carrinho -->
+    <div id="modalCarrinho" class="modal">
+        <div class="modal-content">
+            <span class="fecharModalCarrinho">&times;</span>
+            <h2>Carrinho de Compras</h2>
+            <div class="modal-body" id="listaProdutosCarrinho">
+                <!-- Aqui serão listados os itens do carrinho -->
+            </div>
+        </div>
+    </div>
+    
+      
+    
+
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script 
+    src="{{url_for('static', filename='./js/main.js')}}">  
+
+    </script>
+</body>
+</html>
