@@ -22,7 +22,6 @@ Este guia fornecerá instruções sobre como configurar um ambiente virtual e or
     venv\Scripts\activate
     ```
 
-
     Você saberá que o ambiente virtual está ativado quando o prefixo `(venv)` aparecer à esquerda do prompt de comando.
 
 ## Estrutura do Projeto
@@ -62,7 +61,16 @@ Este guia fornecerá instruções sobre como configurar um ambiente virtual e or
 2. Após a conclusão da instalação, você estará pronto para prosseguir com o desenvolvimento do projeto!
 
     Certifique-se de que o ambiente virtual esteja ativado sempre que estiver trabalhando no projeto.
-   
+
 3. Para visualizar a Landing page rode a API em python, e utilize o link localHost fornecido.
 
 Este é um guia básico para configurar um ambiente virtual, organizar a estrutura do projeto e instalar dependências no Python.
+
+## Credenciais de Login
+
+Para fazer login no sistema, utilize as seguintes credenciais:
+
+- **E-mail:** group2@gmail.com
+- **Senha:** senai123
+
+Certifique-se de usar essas credenciais ao acessar o sistema.
